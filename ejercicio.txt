@@ -1,0 +1,29 @@
+Se tiene el archivo movies.txt el cual contiene los siguientes datos
+
+
+	nombre, fecha de estreno, stock, Tipo[Dvd,Blue Ray]
+
+
+donde tipo tipo tiene la siguiente nomenclatura
+
+
+	D para DVD
+	B para BlueRay
+
+
+Se pide
+
+
+* Crear la clase Movie donde su método constructor reciba Nombre, Fecha de Estreno, Stock.
+
+
+* Crear la clase DVD y BlueRay que herede de Movie
+
+
+* Instanciar los objetos según corresponda al tipo.
+
+
+* Consultar la cantidad de instancias generadas de DVD y BlueRay.
+
+
+* Generar un método que retorne la cantidad Total de peliculas instanciadas
