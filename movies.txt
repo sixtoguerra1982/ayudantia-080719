@@ -6,3 +6,4 @@ Toy Story; 02-04-2000; 7; B
 La Pasion de Cristo; 01-08-1991; 1; B
 Chuky el muñeco Diabolico; 03-06-1991; 6; V
 Men in Black; 04-07-1997; 3; B
+Men in Black; 04-07-1997; 6; B

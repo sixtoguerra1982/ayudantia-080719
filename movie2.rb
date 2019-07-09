@@ -31,6 +31,7 @@ movies_a = []
 data = []
 data = File.open('movies.txt', 'r').readlines.map(&:chomp)
 cont = 0
+hash_movie = {}
 data.each do |movie|
   ls = movie.split('; ')
   # movies_a.push (Movies.new ls[0], ls[1], ls[2].to_i)
@@ -41,8 +42,10 @@ data.each do |movie|
   else
      cont = cont + 1
   end
+  hash_movie[ls[0]] = ls[2]
 end
 
 puts "Cantidad de BlueRay instanciados #{BlueRay.contador_instancias}"
 puts "Cantidad de Dvd instanciados #{dvd.count}"
 puts "Cantidad de Otro tipo #{cont}"
+puts hash_movie
